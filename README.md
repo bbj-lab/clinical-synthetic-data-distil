@@ -91,7 +91,7 @@ python synthetic-e-convert-peft.py
 
 ## B.) b-synthetic-eval-task
 
-This folder contains the preprocessing and evaluation scripts for the synthetic data evalatuion task. 
+This folder contains the preprocessing and evaluation scripts for the synthetic data evaluation task. 
 
 ### Dataset
 Held-out set of 42,498 synthetic examples generated in an identical manner to the dataset used for fine-tuning. The breakdown of examples by type was as follows: 10,722 (25.2%) boolean, 10,666 (25.1%) numeric, 10,664 (25.1%) na-boolean, and 10,446 (24.6%) na-numeric. From this set, we drew a random sample containing 1,000 examples and manually annotated it as described in the “Limited Human Review” subsection of our methods, correcting questions, answers, and explanations when necessary. A description of these data are available in Supplementary Table 1.
@@ -100,7 +100,7 @@ Held-out set of 42,498 synthetic examples generated in an identical manner to th
 There are three steps:
 1. Preprocessing (annotated_synthetic-a-preprocess.ipynb)
 2. Running inference (with eval-inference.py)
-3. Evaluating performacne (annotated_synthetic-b-evaluate-performance.ipynb)
+3. Evaluating performance (annotated_synthetic-b-evaluate-performance.ipynb)
 
 ## C.) c-i2b2-eval-task
 
@@ -113,7 +113,7 @@ The clinical trial eligibility criteria cohort selection shared task from the 20
 There are three steps:
 1. Preprocessing (i2b2-a-preprocess.ipynb)
 2. Running inference (with eval-inference.py)
-3. Evaluating performacne (i2b2-b-evaluate-performance.ipynb)
+3. Evaluating performance (i2b2-b-evaluate-performance.ipynb)
 
 ## D.) d-apixaban-eval-task
 
@@ -126,7 +126,7 @@ Clinical trial eligibility criteria resembling those of the 2011 ARISTOTLE trial
 There are three steps:
 1. Preprocessing (apixaban-a-preprocess.ipynb)
 2. Running inference (with eval-inference.py)
-3. Evaluating performacne (apixaban-b-evaluate-performance.ipynb)
+3. Evaluating performance (apixaban-b-evaluate-performance.ipynb)
 
 ## 1.) Finetuning - finetune.py
 
@@ -237,7 +237,7 @@ A100 GPU's with two 16-core 3.0-GHz AMD Milan processors.
 ## References
 [^1]:
     Synthetic Data Distillation Enables the Extraction of Clinical Information
-    at Scale. 2024. Available from: TBD
+    at Scale. 2024. Available from: https://www.medrxiv.org/content/10.1101/2024.09.27.24314517v1
 
 [^2]:
     Dubey A, Jauhri A, Pandey A, Kadian A, Al-Dahle A, Letman A, et al. The
